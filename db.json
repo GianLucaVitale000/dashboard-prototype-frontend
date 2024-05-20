@@ -1,0 +1,1205 @@
+{
+    "consumo-idrico": {
+        "type": "STACKED_COLUMNS",
+        "title": "Consumo idrico dal 30-09-2015 ad oggi",
+        "subtitle": "Aggiornato al 31/01/2024 11:58:47",
+        "labels": [
+            "Metri cubi",
+            "Tempo"
+        ],
+        "series": [
+            {
+                "label": "Consumo bagni",
+                "data": [
+                    {
+                        "quantita": 375.0,
+                        "data": "2023-01"
+                    },
+                    {
+                        "quantita": 2877.35,
+                        "data": "2023-02"
+                    },
+                    {
+                        "quantita": 3062.15,
+                        "data": "2023-03"
+                    },
+                    {
+                        "quantita": 3295.31,
+                        "data": "2023-04"
+                    },
+                    {
+                        "quantita": 3344.3,
+                        "data": "2023-05"
+                    },
+                    {
+                        "quantita": 2983.17,
+                        "data": "2023-06"
+                    },
+                    {
+                        "quantita": 3062.96,
+                        "data": "2023-07"
+                    },
+                    {
+                        "quantita": 3501.96,
+                        "data": "2023-08"
+                    },
+                    {
+                        "quantita": 3266.55,
+                        "data": "2023-09"
+                    },
+                    {
+                        "quantita": 3505.02,
+                        "data": "2023-10"
+                    },
+                    {
+                        "quantita": 3454.08,
+                        "data": "2023-11"
+                    },
+                    {
+                        "quantita": 3503.78,
+                        "data": "2023-12"
+                    },
+                    {
+                        "quantita": 2974.01,
+                        "data": "2024-01"
+                    }
+                ]
+            },
+            {
+                "label": "Consumo produzione",
+                "data": [
+                    {
+                        "quantita": 302.99,
+                        "data": "2023-01"
+                    },
+                    {
+                        "quantita": 2823.68,
+                        "data": "2023-02"
+                    },
+                    {
+                        "quantita": 3491.89,
+                        "data": "2023-03"
+                    },
+                    {
+                        "quantita": 3142.01,
+                        "data": "2023-04"
+                    },
+                    {
+                        "quantita": 3482.48,
+                        "data": "2023-05"
+                    },
+                    {
+                        "quantita": 3681.83,
+                        "data": "2023-06"
+                    },
+                    {
+                        "quantita": 3064.78,
+                        "data": "2023-07"
+                    },
+                    {
+                        "quantita": 3690.56,
+                        "data": "2023-08"
+                    },
+                    {
+                        "quantita": 3483.92,
+                        "data": "2023-09"
+                    },
+                    {
+                        "quantita": 3557.85,
+                        "data": "2023-10"
+                    },
+                    {
+                        "quantita": 3150.22,
+                        "data": "2023-11"
+                    },
+                    {
+                        "quantita": 3343.9,
+                        "data": "2023-12"
+                    },
+                    {
+                        "quantita": 3144.41,
+                        "data": "2024-01"
+                    }
+                ]
+            }
+        ]
+    },
+    "energia-elettrica": {
+        "type": "DUAL_AXIS",
+        "title": "Consumo e produzione energia elettrica dal 30-09-2015 ad oggi",
+        "subtitle": "Aggiornato al 31/01/2024 11:58:15",
+        "labels": [
+            "KilowattHour",
+            "Tempo"
+        ],
+        "series": [
+            {
+                "label": "Consumo",
+                "data": [
+                    {
+                        "quantita": 706.56,
+                        "data": "2023-01"
+                    },
+                    {
+                        "quantita": 6000.03,
+                        "data": "2023-02"
+                    },
+                    {
+                        "quantita": 7265.83,
+                        "data": "2023-03"
+                    },
+                    {
+                        "quantita": 6323.9,
+                        "data": "2023-04"
+                    },
+                    {
+                        "quantita": 7350.83,
+                        "data": "2023-05"
+                    },
+                    {
+                        "quantita": 6063.52,
+                        "data": "2023-06"
+                    },
+                    {
+                        "quantita": 6913.7,
+                        "data": "2023-07"
+                    },
+                    {
+                        "quantita": 6887.43,
+                        "data": "2023-08"
+                    },
+                    {
+                        "quantita": 6317.74,
+                        "data": "2023-09"
+                    },
+                    {
+                        "quantita": 6574.63,
+                        "data": "2023-10"
+                    },
+                    {
+                        "quantita": 6220.85,
+                        "data": "2023-11"
+                    },
+                    {
+                        "quantita": 6322.41,
+                        "data": "2023-12"
+                    },
+                    {
+                        "quantita": 6478.09,
+                        "data": "2024-01"
+                    }
+                ]
+            },
+            {
+                "label": "Produzione",
+                "data": [
+                    {
+                        "quantita": 591.84,
+                        "data": "2023-01"
+                    },
+                    {
+                        "quantita": 6321.75,
+                        "data": "2023-02"
+                    },
+                    {
+                        "quantita": 6902.16,
+                        "data": "2023-03"
+                    },
+                    {
+                        "quantita": 6254.03,
+                        "data": "2023-04"
+                    },
+                    {
+                        "quantita": 6661.81,
+                        "data": "2023-05"
+                    },
+                    {
+                        "quantita": 6678.46,
+                        "data": "2023-06"
+                    },
+                    {
+                        "quantita": 6163.59,
+                        "data": "2023-07"
+                    },
+                    {
+                        "quantita": 6479.76,
+                        "data": "2023-08"
+                    },
+                    {
+                        "quantita": 6306.27,
+                        "data": "2023-09"
+                    },
+                    {
+                        "quantita": 6439.96,
+                        "data": "2023-10"
+                    },
+                    {
+                        "quantita": 7155.21,
+                        "data": "2023-11"
+                    },
+                    {
+                        "quantita": 5883.1,
+                        "data": "2023-12"
+                    },
+                    {
+                        "quantita": 6682.38,
+                        "data": "2024-01"
+                    }
+                ]
+            }
+        ]
+    },
+    "fatturato": {
+        "type": "DUAL_AXIS",
+        "title": "Fatturato e costi di smaltimento rifiuti dal 30-09-2015 ad oggi",
+        "subtitle": "Aggiornato al 31/01/2024 11:58:32",
+        "labels": [
+            "Euro",
+            "Tempo"
+        ],
+        "series": [
+            {
+                "label": "Fatturato",
+                "data": [
+                    {
+                        "importo": 68185.52,
+                        "data": "2023-01"
+                    },
+                    {
+                        "importo": 597151.36,
+                        "data": "2023-02"
+                    },
+                    {
+                        "importo": 646455.33,
+                        "data": "2023-03"
+                    },
+                    {
+                        "importo": 587200.91,
+                        "data": "2023-04"
+                    },
+                    {
+                        "importo": 637710.94,
+                        "data": "2023-05"
+                    },
+                    {
+                        "importo": 627245.56,
+                        "data": "2023-06"
+                    },
+                    {
+                        "importo": 602389.71,
+                        "data": "2023-07"
+                    },
+                    {
+                        "importo": 654083.28,
+                        "data": "2023-08"
+                    },
+                    {
+                        "importo": 624678.13,
+                        "data": "2023-09"
+                    },
+                    {
+                        "importo": 656410.29,
+                        "data": "2023-10"
+                    },
+                    {
+                        "importo": 656126.32,
+                        "data": "2023-11"
+                    },
+                    {
+                        "importo": 600059.59,
+                        "data": "2023-12"
+                    },
+                    {
+                        "importo": 623084.91,
+                        "data": "2024-01"
+                    }
+                ]
+            },
+            {
+                "label": "Costo smaltimento",
+                "data": [
+                    {
+                        "importo": 2460.50,
+                        "data": "2023-01"
+                    },
+                    {
+                        "importo": 81070.66,
+                        "data": "2023-02"
+                    },
+                    {
+                        "importo": 85880.90,
+                        "data": "2023-03"
+                    },
+                    {
+                        "importo": 82228.25,
+                        "data": "2023-04"
+                    },
+                    {
+                        "importo": 83607.11,
+                        "data": "2023-05"
+                    },
+                    {
+                        "importo": 87161.94,
+                        "data": "2023-06"
+                    },
+                    {
+                        "importo": 85952.55,
+                        "data": "2023-07"
+                    },
+                    {
+                        "importo": 84574.25,
+                        "data": "2023-08"
+                    },
+                    {
+                        "importo": 81896.20,
+                        "data": "2023-09"
+                    },
+                    {
+                        "importo": 80713.99,
+                        "data": "2023-10"
+                    },
+                    {
+                        "importo": 83836.51,
+                        "data": "2023-11"
+                    },
+                    {
+                        "importo": 86242.20,
+                        "data": "2023-12"
+                    },
+                    {
+                        "importo": 79294.30,
+                        "data": "2024-01"
+                    }
+                ]
+            }
+        ]
+    },
+    "prodotti": {
+        "type": "TABLE",
+        "title": "Elenco prodotti",
+        "subtitle": "Aggiornato al 31/01/2024 11:57:32",
+        "labels": [
+            "Nome",
+            "Prezzo di vendita"
+        ],
+        "series": [
+            {
+                "label": "Anagrafica Prodotti",
+                "data": [
+                    {
+                        "nome": "Small Rubber Chair",
+                        "prezzo": 29.41
+                    },
+                    {
+                        "nome": "Small Paper Knife",
+                        "prezzo": 96.77
+                    },
+                    {
+                        "nome": "Rustic Leather Bench",
+                        "prezzo": 62.09
+                    },
+                    {
+                        "nome": "Gorgeous Granite Computer",
+                        "prezzo": 65.59
+                    },
+                    {
+                        "nome": "Gorgeous Bronze Shirt",
+                        "prezzo": 6.84
+                    },
+                    {
+                        "nome": "Fantastic Bronze Wallet",
+                        "prezzo": 67.59
+                    },
+                    {
+                        "nome": "Ergonomic Granite Plate",
+                        "prezzo": 95.00
+                    },
+                    {
+                        "nome": "Durable Linen Pants",
+                        "prezzo": 67.52
+                    },
+                    {
+                        "nome": "Durable Bronze Wallet",
+                        "prezzo": 35.90
+                    },
+                    {
+                        "nome": "Awesome Steel Shirt",
+                        "prezzo": 9.34
+                    }
+                ]
+            }
+        ]
+    },
+    "produzione": {
+        "type": "BASIC_LINE",
+        "title": "Produzione dal 30-09-2015 ad oggi",
+        "subtitle": "Aggiornato al 31/01/2024 11:58:00",
+        "labels": [
+            "Prodotti",
+            "Tempo"
+        ],
+        "series": [
+            {
+                "label": "Linea produttiva di 'Gorgeous Bronze Shirt'",
+                "data": [
+                    {
+                        "pezziProdotti": 88,
+                        "pezziDifettosi": 13,
+                        "data": "2023-01"
+                    },
+                    {
+                        "pezziProdotti": 1318,
+                        "pezziDifettosi": 92,
+                        "data": "2023-02"
+                    },
+                    {
+                        "pezziProdotti": 1445,
+                        "pezziDifettosi": 128,
+                        "data": "2023-03"
+                    },
+                    {
+                        "pezziProdotti": 1040,
+                        "pezziDifettosi": 97,
+                        "data": "2023-04"
+                    },
+                    {
+                        "pezziProdotti": 1432,
+                        "pezziDifettosi": 106,
+                        "data": "2023-05"
+                    },
+                    {
+                        "pezziProdotti": 1203,
+                        "pezziDifettosi": 110,
+                        "data": "2023-06"
+                    },
+                    {
+                        "pezziProdotti": 1155,
+                        "pezziDifettosi": 96,
+                        "data": "2023-07"
+                    },
+                    {
+                        "pezziProdotti": 1409,
+                        "pezziDifettosi": 113,
+                        "data": "2023-08"
+                    },
+                    {
+                        "pezziProdotti": 1220,
+                        "pezziDifettosi": 102,
+                        "data": "2023-09"
+                    },
+                    {
+                        "pezziProdotti": 1553,
+                        "pezziDifettosi": 88,
+                        "data": "2023-10"
+                    },
+                    {
+                        "pezziProdotti": 1352,
+                        "pezziDifettosi": 103,
+                        "data": "2023-11"
+                    },
+                    {
+                        "pezziProdotti": 1265,
+                        "pezziDifettosi": 122,
+                        "data": "2023-12"
+                    },
+                    {
+                        "pezziProdotti": 1162,
+                        "pezziDifettosi": 95,
+                        "data": "2024-01"
+                    }
+                ]
+            },
+            {
+                "label": "Linea produttiva di 'Rustic Leather Bench'",
+                "data": [
+                    {
+                        "pezziProdotti": 120,
+                        "pezziDifettosi": 7,
+                        "data": "2023-01"
+                    },
+                    {
+                        "pezziProdotti": 1217,
+                        "pezziDifettosi": 94,
+                        "data": "2023-02"
+                    },
+                    {
+                        "pezziProdotti": 1045,
+                        "pezziDifettosi": 127,
+                        "data": "2023-03"
+                    },
+                    {
+                        "pezziProdotti": 1156,
+                        "pezziDifettosi": 66,
+                        "data": "2023-04"
+                    },
+                    {
+                        "pezziProdotti": 1165,
+                        "pezziDifettosi": 103,
+                        "data": "2023-05"
+                    },
+                    {
+                        "pezziProdotti": 1261,
+                        "pezziDifettosi": 83,
+                        "data": "2023-06"
+                    },
+                    {
+                        "pezziProdotti": 1230,
+                        "pezziDifettosi": 111,
+                        "data": "2023-07"
+                    },
+                    {
+                        "pezziProdotti": 1143,
+                        "pezziDifettosi": 133,
+                        "data": "2023-08"
+                    },
+                    {
+                        "pezziProdotti": 1022,
+                        "pezziDifettosi": 80,
+                        "data": "2023-09"
+                    },
+                    {
+                        "pezziProdotti": 1238,
+                        "pezziDifettosi": 92,
+                        "data": "2023-10"
+                    },
+                    {
+                        "pezziProdotti": 1244,
+                        "pezziDifettosi": 98,
+                        "data": "2023-11"
+                    },
+                    {
+                        "pezziProdotti": 1182,
+                        "pezziDifettosi": 130,
+                        "data": "2023-12"
+                    },
+                    {
+                        "pezziProdotti": 1083,
+                        "pezziDifettosi": 111,
+                        "data": "2024-01"
+                    }
+                ]
+            },
+            {
+                "label": "Linea produttiva di 'Ergonomic Granite Plate'",
+                "data": [
+                    {
+                        "pezziProdotti": 128,
+                        "pezziDifettosi": 9,
+                        "data": "2023-01"
+                    },
+                    {
+                        "pezziProdotti": 1204,
+                        "pezziDifettosi": 84,
+                        "data": "2023-02"
+                    },
+                    {
+                        "pezziProdotti": 1214,
+                        "pezziDifettosi": 111,
+                        "data": "2023-03"
+                    },
+                    {
+                        "pezziProdotti": 966,
+                        "pezziDifettosi": 86,
+                        "data": "2023-04"
+                    },
+                    {
+                        "pezziProdotti": 1139,
+                        "pezziDifettosi": 98,
+                        "data": "2023-05"
+                    },
+                    {
+                        "pezziProdotti": 1112,
+                        "pezziDifettosi": 101,
+                        "data": "2023-06"
+                    },
+                    {
+                        "pezziProdotti": 1086,
+                        "pezziDifettosi": 94,
+                        "data": "2023-07"
+                    },
+                    {
+                        "pezziProdotti": 1351,
+                        "pezziDifettosi": 102,
+                        "data": "2023-08"
+                    },
+                    {
+                        "pezziProdotti": 1398,
+                        "pezziDifettosi": 107,
+                        "data": "2023-09"
+                    },
+                    {
+                        "pezziProdotti": 1358,
+                        "pezziDifettosi": 129,
+                        "data": "2023-10"
+                    },
+                    {
+                        "pezziProdotti": 1232,
+                        "pezziDifettosi": 101,
+                        "data": "2023-11"
+                    },
+                    {
+                        "pezziProdotti": 1095,
+                        "pezziDifettosi": 92,
+                        "data": "2023-12"
+                    },
+                    {
+                        "pezziProdotti": 1036,
+                        "pezziDifettosi": 73,
+                        "data": "2024-01"
+                    }
+                ]
+            },
+            {
+                "label": "Linea produttiva di 'Small Paper Knife'",
+                "data": [
+                    {
+                        "pezziProdotti": 173,
+                        "pezziDifettosi": 12,
+                        "data": "2023-01"
+                    },
+                    {
+                        "pezziProdotti": 993,
+                        "pezziDifettosi": 87,
+                        "data": "2023-02"
+                    },
+                    {
+                        "pezziProdotti": 1305,
+                        "pezziDifettosi": 94,
+                        "data": "2023-03"
+                    },
+                    {
+                        "pezziProdotti": 1200,
+                        "pezziDifettosi": 81,
+                        "data": "2023-04"
+                    },
+                    {
+                        "pezziProdotti": 1337,
+                        "pezziDifettosi": 114,
+                        "data": "2023-05"
+                    },
+                    {
+                        "pezziProdotti": 1190,
+                        "pezziDifettosi": 104,
+                        "data": "2023-06"
+                    },
+                    {
+                        "pezziProdotti": 1209,
+                        "pezziDifettosi": 80,
+                        "data": "2023-07"
+                    },
+                    {
+                        "pezziProdotti": 1313,
+                        "pezziDifettosi": 113,
+                        "data": "2023-08"
+                    },
+                    {
+                        "pezziProdotti": 1196,
+                        "pezziDifettosi": 98,
+                        "data": "2023-09"
+                    },
+                    {
+                        "pezziProdotti": 1241,
+                        "pezziDifettosi": 112,
+                        "data": "2023-10"
+                    },
+                    {
+                        "pezziProdotti": 1383,
+                        "pezziDifettosi": 106,
+                        "data": "2023-11"
+                    },
+                    {
+                        "pezziProdotti": 1010,
+                        "pezziDifettosi": 115,
+                        "data": "2023-12"
+                    },
+                    {
+                        "pezziProdotti": 1179,
+                        "pezziDifettosi": 76,
+                        "data": "2024-01"
+                    }
+                ]
+            },
+            {
+                "label": "Linea produttiva di 'Durable Bronze Wallet'",
+                "data": [
+                    {
+                        "pezziProdotti": 135,
+                        "pezziDifettosi": 7,
+                        "data": "2023-01"
+                    },
+                    {
+                        "pezziProdotti": 883,
+                        "pezziDifettosi": 80,
+                        "data": "2023-02"
+                    },
+                    {
+                        "pezziProdotti": 1320,
+                        "pezziDifettosi": 114,
+                        "data": "2023-03"
+                    },
+                    {
+                        "pezziProdotti": 1083,
+                        "pezziDifettosi": 95,
+                        "data": "2023-04"
+                    },
+                    {
+                        "pezziProdotti": 1170,
+                        "pezziDifettosi": 90,
+                        "data": "2023-05"
+                    },
+                    {
+                        "pezziProdotti": 1431,
+                        "pezziDifettosi": 116,
+                        "data": "2023-06"
+                    },
+                    {
+                        "pezziProdotti": 1108,
+                        "pezziDifettosi": 80,
+                        "data": "2023-07"
+                    },
+                    {
+                        "pezziProdotti": 935,
+                        "pezziDifettosi": 106,
+                        "data": "2023-08"
+                    },
+                    {
+                        "pezziProdotti": 1076,
+                        "pezziDifettosi": 81,
+                        "data": "2023-09"
+                    },
+                    {
+                        "pezziProdotti": 1270,
+                        "pezziDifettosi": 73,
+                        "data": "2023-10"
+                    },
+                    {
+                        "pezziProdotti": 965,
+                        "pezziDifettosi": 96,
+                        "data": "2023-11"
+                    },
+                    {
+                        "pezziProdotti": 1153,
+                        "pezziDifettosi": 78,
+                        "data": "2023-12"
+                    },
+                    {
+                        "pezziProdotti": 1264,
+                        "pezziDifettosi": 91,
+                        "data": "2024-01"
+                    }
+                ]
+            },
+            {
+                "label": "Linea produttiva di 'Durable Linen Pants'",
+                "data": [
+                    {
+                        "pezziProdotti": 124,
+                        "pezziDifettosi": 12,
+                        "data": "2023-01"
+                    },
+                    {
+                        "pezziProdotti": 1194,
+                        "pezziDifettosi": 101,
+                        "data": "2023-02"
+                    },
+                    {
+                        "pezziProdotti": 1176,
+                        "pezziDifettosi": 123,
+                        "data": "2023-03"
+                    },
+                    {
+                        "pezziProdotti": 1096,
+                        "pezziDifettosi": 95,
+                        "data": "2023-04"
+                    },
+                    {
+                        "pezziProdotti": 1138,
+                        "pezziDifettosi": 116,
+                        "data": "2023-05"
+                    },
+                    {
+                        "pezziProdotti": 1112,
+                        "pezziDifettosi": 93,
+                        "data": "2023-06"
+                    },
+                    {
+                        "pezziProdotti": 1295,
+                        "pezziDifettosi": 111,
+                        "data": "2023-07"
+                    },
+                    {
+                        "pezziProdotti": 1178,
+                        "pezziDifettosi": 98,
+                        "data": "2023-08"
+                    },
+                    {
+                        "pezziProdotti": 1195,
+                        "pezziDifettosi": 109,
+                        "data": "2023-09"
+                    },
+                    {
+                        "pezziProdotti": 1061,
+                        "pezziDifettosi": 85,
+                        "data": "2023-10"
+                    },
+                    {
+                        "pezziProdotti": 1128,
+                        "pezziDifettosi": 102,
+                        "data": "2023-11"
+                    },
+                    {
+                        "pezziProdotti": 1192,
+                        "pezziDifettosi": 79,
+                        "data": "2023-12"
+                    },
+                    {
+                        "pezziProdotti": 1271,
+                        "pezziDifettosi": 83,
+                        "data": "2024-01"
+                    }
+                ]
+            },
+            {
+                "label": "Linea produttiva di 'Gorgeous Granite Computer'",
+                "data": [
+                    {
+                        "pezziProdotti": 38,
+                        "pezziDifettosi": 7,
+                        "data": "2023-01"
+                    },
+                    {
+                        "pezziProdotti": 970,
+                        "pezziDifettosi": 94,
+                        "data": "2023-02"
+                    },
+                    {
+                        "pezziProdotti": 1216,
+                        "pezziDifettosi": 82,
+                        "data": "2023-03"
+                    },
+                    {
+                        "pezziProdotti": 1161,
+                        "pezziDifettosi": 67,
+                        "data": "2023-04"
+                    },
+                    {
+                        "pezziProdotti": 1319,
+                        "pezziDifettosi": 125,
+                        "data": "2023-05"
+                    },
+                    {
+                        "pezziProdotti": 1243,
+                        "pezziDifettosi": 107,
+                        "data": "2023-06"
+                    },
+                    {
+                        "pezziProdotti": 910,
+                        "pezziDifettosi": 85,
+                        "data": "2023-07"
+                    },
+                    {
+                        "pezziProdotti": 1069,
+                        "pezziDifettosi": 88,
+                        "data": "2023-08"
+                    },
+                    {
+                        "pezziProdotti": 1077,
+                        "pezziDifettosi": 68,
+                        "data": "2023-09"
+                    },
+                    {
+                        "pezziProdotti": 1111,
+                        "pezziDifettosi": 90,
+                        "data": "2023-10"
+                    },
+                    {
+                        "pezziProdotti": 1224,
+                        "pezziDifettosi": 98,
+                        "data": "2023-11"
+                    },
+                    {
+                        "pezziProdotti": 1115,
+                        "pezziDifettosi": 73,
+                        "data": "2023-12"
+                    },
+                    {
+                        "pezziProdotti": 1184,
+                        "pezziDifettosi": 112,
+                        "data": "2024-01"
+                    }
+                ]
+            },
+            {
+                "label": "Linea produttiva di 'Small Rubber Chair'",
+                "data": [
+                    {
+                        "pezziProdotti": 123,
+                        "pezziDifettosi": 4,
+                        "data": "2023-01"
+                    },
+                    {
+                        "pezziProdotti": 1075,
+                        "pezziDifettosi": 122,
+                        "data": "2023-02"
+                    },
+                    {
+                        "pezziProdotti": 1287,
+                        "pezziDifettosi": 80,
+                        "data": "2023-03"
+                    },
+                    {
+                        "pezziProdotti": 980,
+                        "pezziDifettosi": 82,
+                        "data": "2023-04"
+                    },
+                    {
+                        "pezziProdotti": 1307,
+                        "pezziDifettosi": 101,
+                        "data": "2023-05"
+                    },
+                    {
+                        "pezziProdotti": 981,
+                        "pezziDifettosi": 98,
+                        "data": "2023-06"
+                    },
+                    {
+                        "pezziProdotti": 1007,
+                        "pezziDifettosi": 71,
+                        "data": "2023-07"
+                    },
+                    {
+                        "pezziProdotti": 1225,
+                        "pezziDifettosi": 114,
+                        "data": "2023-08"
+                    },
+                    {
+                        "pezziProdotti": 1116,
+                        "pezziDifettosi": 109,
+                        "data": "2023-09"
+                    },
+                    {
+                        "pezziProdotti": 1446,
+                        "pezziDifettosi": 101,
+                        "data": "2023-10"
+                    },
+                    {
+                        "pezziProdotti": 1358,
+                        "pezziDifettosi": 97,
+                        "data": "2023-11"
+                    },
+                    {
+                        "pezziProdotti": 1187,
+                        "pezziDifettosi": 83,
+                        "data": "2023-12"
+                    },
+                    {
+                        "pezziProdotti": 1171,
+                        "pezziDifettosi": 87,
+                        "data": "2024-01"
+                    }
+                ]
+            },
+            {
+                "label": "Linea produttiva di 'Awesome Steel Shirt'",
+                "data": [
+                    {
+                        "pezziProdotti": 131,
+                        "pezziDifettosi": 7,
+                        "data": "2023-01"
+                    },
+                    {
+                        "pezziProdotti": 1026,
+                        "pezziDifettosi": 80,
+                        "data": "2023-02"
+                    },
+                    {
+                        "pezziProdotti": 1169,
+                        "pezziDifettosi": 106,
+                        "data": "2023-03"
+                    },
+                    {
+                        "pezziProdotti": 1169,
+                        "pezziDifettosi": 76,
+                        "data": "2023-04"
+                    },
+                    {
+                        "pezziProdotti": 1200,
+                        "pezziDifettosi": 100,
+                        "data": "2023-05"
+                    },
+                    {
+                        "pezziProdotti": 1030,
+                        "pezziDifettosi": 103,
+                        "data": "2023-06"
+                    },
+                    {
+                        "pezziProdotti": 1287,
+                        "pezziDifettosi": 82,
+                        "data": "2023-07"
+                    },
+                    {
+                        "pezziProdotti": 1289,
+                        "pezziDifettosi": 127,
+                        "data": "2023-08"
+                    },
+                    {
+                        "pezziProdotti": 974,
+                        "pezziDifettosi": 55,
+                        "data": "2023-09"
+                    },
+                    {
+                        "pezziProdotti": 1136,
+                        "pezziDifettosi": 103,
+                        "data": "2023-10"
+                    },
+                    {
+                        "pezziProdotti": 1079,
+                        "pezziDifettosi": 79,
+                        "data": "2023-11"
+                    },
+                    {
+                        "pezziProdotti": 1030,
+                        "pezziDifettosi": 111,
+                        "data": "2023-12"
+                    },
+                    {
+                        "pezziProdotti": 973,
+                        "pezziDifettosi": 99,
+                        "data": "2024-01"
+                    }
+                ]
+            },
+            {
+                "label": "Linea produttiva di 'Fantastic Bronze Wallet'",
+                "data": [
+                    {
+                        "pezziProdotti": 158,
+                        "pezziDifettosi": 6,
+                        "data": "2023-01"
+                    },
+                    {
+                        "pezziProdotti": 1257,
+                        "pezziDifettosi": 81,
+                        "data": "2023-02"
+                    },
+                    {
+                        "pezziProdotti": 1106,
+                        "pezziDifettosi": 119,
+                        "data": "2023-03"
+                    },
+                    {
+                        "pezziProdotti": 1060,
+                        "pezziDifettosi": 73,
+                        "data": "2023-04"
+                    },
+                    {
+                        "pezziProdotti": 932,
+                        "pezziDifettosi": 101,
+                        "data": "2023-05"
+                    },
+                    {
+                        "pezziProdotti": 1087,
+                        "pezziDifettosi": 98,
+                        "data": "2023-06"
+                    },
+                    {
+                        "pezziProdotti": 1027,
+                        "pezziDifettosi": 78,
+                        "data": "2023-07"
+                    },
+                    {
+                        "pezziProdotti": 1284,
+                        "pezziDifettosi": 100,
+                        "data": "2023-08"
+                    },
+                    {
+                        "pezziProdotti": 1072,
+                        "pezziDifettosi": 118,
+                        "data": "2023-09"
+                    },
+                    {
+                        "pezziProdotti": 1133,
+                        "pezziDifettosi": 103,
+                        "data": "2023-10"
+                    },
+                    {
+                        "pezziProdotti": 1149,
+                        "pezziDifettosi": 97,
+                        "data": "2023-11"
+                    },
+                    {
+                        "pezziProdotti": 1135,
+                        "pezziDifettosi": 109,
+                        "data": "2023-12"
+                    },
+                    {
+                        "pezziProdotti": 1228,
+                        "pezziDifettosi": 104,
+                        "data": "2024-01"
+                    }
+                ]
+            }
+        ]
+    },
+    "rifiuti": {
+        "type": "PIE",
+        "title": "Rifiuti prodotti dal 30-09-2015 ad oggi",
+        "subtitle": "Aggiornato al 31/01/2024 11:59:08",
+        "labels": [
+            "Quintali",
+            "Tempo"
+        ],
+        "series": [
+            {
+                "label": "Rifiuti",
+                "data": [
+                    {
+                        "quantita": 948.3,
+                        "percentuale": 11.067669,
+                        "tipo": "CARTA"
+                    },
+                    {
+                        "quantita": 939.71,
+                        "percentuale": 10.967414,
+                        "tipo": "CARTONE"
+                    },
+                    {
+                        "quantita": 989.02,
+                        "percentuale": 11.542914,
+                        "tipo": "PLASTICA"
+                    },
+                    {
+                        "quantita": 969.67,
+                        "percentuale": 11.31708,
+                        "tipo": "IMBALLAGGIO"
+                    },
+                    {
+                        "quantita": 944.37,
+                        "percentuale": 11.021801,
+                        "tipo": "LEGNO"
+                    },
+                    {
+                        "quantita": 965.2,
+                        "percentuale": 11.26491,
+                        "tipo": "VETRO"
+                    },
+                    {
+                        "quantita": 923.37,
+                        "percentuale": 10.776709,
+                        "tipo": "POLISTIROLO"
+                    },
+                    {
+                        "quantita": 923.96,
+                        "percentuale": 10.783595,
+                        "tipo": "VERNICE"
+                    },
+                    {
+                        "quantita": 964.6,
+                        "percentuale": 11.257907,
+                        "tipo": "INDIFFERENZIATO"
+                    }
+                ]
+            }
+        ]
+    }
+}

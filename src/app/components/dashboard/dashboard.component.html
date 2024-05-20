@@ -1,0 +1,40 @@
+<div class="layout-main-container">
+    <div class="grid">
+        <div class="col-12 xl:col-6">
+            <div class="card">
+                @if (rifiutiChartOptions) {
+                    <highcharts-chart
+                      [Highcharts]="Highcharts"
+                      [options]="rifiutiChartOptions"
+                      style="width: 100%; height: 400px; display: block"
+                    >
+                    </highcharts-chart>
+                    } @else { Chart loading... }
+            </div>
+        </div>
+
+        <div class="col-12 xl:col-6">
+            <div class="card">
+              @if (produzioneOptions.length > 0) {
+              <highcharts-chart
+                [Highcharts]="Highcharts"
+                [options]="produzioneChartOptions"
+                style="width: 100%; height: 400px; display: block"
+              >
+              </highcharts-chart>
+              <p-dropdown
+                [options]="produzioneOptions"
+                optionLabel="name"
+                [showClear]="false"
+                placeholder="Seleziona una Produzione"
+                [(ngModel)]="selectedProduzione"
+                (onChange)="onProduzioneChange()"
+              >
+              </p-dropdown>
+              } @else { Chart loading... }
+            </div>
+          </div>
+
+        
+    </div>
+</div>

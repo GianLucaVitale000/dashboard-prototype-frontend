@@ -1,1 +1,478 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/bootstrap4-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--surface-ground);
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+.card {
+  background: var(--surface-card);
+  border: 1px solid var(--surface-border);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--card-shadow);
+  border-radius: 12px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -1rem;
+  margin-left: -1rem;
+  margin-top: -1rem;
+}
+
+.grid > .col,
+.grid > [class*="col"] {
+  box-sizing: border-box;
+}
+
+.col {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 1rem;
+}
+
+.col-fixed {
+  flex: 0 0 auto;
+  padding: 1rem;
+}
+
+.col-1 {
+  flex: 0 0 auto;
+  padding: 1rem;
+  width: 8.3333%;
+}
+
+.col-2 {
+  flex: 0 0 auto;
+  padding: 1rem;
+  width: 16.6667%;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  padding: 1rem;
+  width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 auto;
+  padding: 1rem;
+  width: 33.3333%;
+}
+
+.col-5 {
+  flex: 0 0 auto;
+  padding: 1rem;
+  width: 41.6667%;
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  padding: 1rem;
+  width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 auto;
+  padding: 1rem;
+  width: 58.3333%;
+}
+
+.col-8 {
+  flex: 0 0 auto;
+  padding: 1rem;
+  width: 66.6667%;
+}
+
+.col-9 {
+  flex: 0 0 auto;
+  padding: 1rem;
+  width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 auto;
+  padding: 1rem;
+  width: 83.3333%;
+}
+
+.col-11 {
+  flex: 0 0 auto;
+  padding: 1rem;
+  width: 91.6667%;
+}
+
+.col-12 {
+  flex: 0 0 auto;
+  padding: 1rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .sm\:col {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 1rem;
+  }
+
+  .sm\:col-fixed {
+    flex: 0 0 auto;
+    padding: 1rem;
+  }
+
+  .sm\:col-1 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 8.3333%;
+  }
+
+  .sm\:col-2 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 16.6667%;
+  }
+
+  .sm\:col-3 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 25%;
+  }
+
+  .sm\:col-4 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 33.3333%;
+  }
+
+  .sm\:col-5 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 41.6667%;
+  }
+
+  .sm\:col-6 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 50%;
+  }
+
+  .sm\:col-7 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 58.3333%;
+  }
+
+  .sm\:col-8 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 66.6667%;
+  }
+
+  .sm\:col-9 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 75%;
+  }
+
+  .sm\:col-10 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 83.3333%;
+  }
+
+  .sm\:col-11 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 91.6667%;
+  }
+
+  .sm\:col-12 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:col {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 1rem;
+  }
+
+  .md\:col-fixed {
+    flex: 0 0 auto;
+    padding: 1rem;
+  }
+
+  .md\:col-1 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 8.3333%;
+  }
+
+  .md\:col-2 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 16.6667%;
+  }
+
+  .md\:col-3 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 25%;
+  }
+
+  .md\:col-4 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 33.3333%;
+  }
+
+  .md\:col-5 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 41.6667%;
+  }
+
+  .md\:col-6 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 50%;
+  }
+
+  .md\:col-7 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 58.3333%;
+  }
+
+  .md\:col-8 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 66.6667%;
+  }
+
+  .md\:col-9 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 75%;
+  }
+
+  .md\:col-10 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 83.3333%;
+  }
+
+  .md\:col-11 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 91.6667%;
+  }
+
+  .md\:col-12 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .lg\:col {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 1rem;
+  }
+
+  .lg\:col-fixed {
+    flex: 0 0 auto;
+    padding: 1rem;
+  }
+
+  .lg\:col-1 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 8.3333%;
+  }
+
+  .lg\:col-2 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 16.6667%;
+  }
+
+  .lg\:col-3 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 25%;
+  }
+
+  .lg\:col-4 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 33.3333%;
+  }
+
+  .lg\:col-5 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 41.6667%;
+  }
+
+  .lg\:col-6 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 50%;
+  }
+
+  .lg\:col-7 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 58.3333%;
+  }
+
+  .lg\:col-8 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 66.6667%;
+  }
+
+  .lg\:col-9 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 75%;
+  }
+
+  .lg\:col-10 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 83.3333%;
+  }
+
+  .lg\:col-11 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 91.6667%;
+  }
+
+  .lg\:col-12 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .xl\:col {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 1rem;
+  }
+
+  .xl\:col-fixed {
+    flex: 0 0 auto;
+    padding: 1rem;
+  }
+
+  .xl\:col-1 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 8.3333%;
+  }
+
+  .xl\:col-2 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 16.6667%;
+  }
+
+  .xl\:col-3 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 25%;
+  }
+
+  .xl\:col-4 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 33.3333%;
+  }
+
+  .xl\:col-5 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 41.6667%;
+  }
+
+  .xl\:col-6 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 50%;
+  }
+
+  .xl\:col-7 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 58.3333%;
+  }
+
+  .xl\:col-8 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 66.6667%;
+  }
+
+  .xl\:col-9 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 75%;
+  }
+
+  .xl\:col-10 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 83.3333%;
+  }
+
+  .xl\:col-11 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 91.6667%;
+  }
+
+  .xl\:col-12 {
+    flex: 0 0 auto;
+    padding: 1rem;
+    width: 100%;
+  }
+}
+
+.layout-main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  padding: 7rem 2rem 2rem 4rem;
+  transition: margin-left 0.2s;
+}
+
+a.p-menuitem-link-active {
+  background-color: var(--primary-100) !important;
+  color: black;
+}
