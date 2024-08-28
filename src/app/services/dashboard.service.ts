@@ -8,20 +8,20 @@ import { firstValueFrom } from 'rxjs';
   providedIn: 'root'
 })
 export class DashboardService {
-  baseUrl = "http://localhost:3000";
+  baseUrl = "http://localhost:8080/api/charts";
 
   constructor(private http: HttpClient) { }
  
   getRifiuti(){
-    return this.http.get<d.RifiutoResponse>(this.baseUrl + '/rifiuti');
+    return this.http.get<d.RifiutoResponse>(this.baseUrl + '/rifiuti/12');
   }
 
   getProduzione(){
-    return this.http.get<d.ProduzioneResponse>(this.baseUrl + '/produzione');
+    return this.http.get<d.ProduzioneResponse>(this.baseUrl + '/produzione/12');
   }
 
   getProdotti(){
-    return this.http.get<d.ProdottoResponse>(this.baseUrl + '/prodotti');
+    return this.http.get<d.ProdottoResponse>(this.baseUrl + '/prodotti/10');
   }
 
 

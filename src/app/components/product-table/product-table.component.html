@@ -3,17 +3,15 @@
         <div class="col-12 xl:col-12">
             <div class="card">
             <h5>Prodotti</h5>
-            <p-table 
-            [value] ="prodotti"
-            [columns] = "prodottiColumns"
+            <p-table [value] ="prodotti" [columns] = "prodottiColumns"
             [tableStyle] = "{ 'min-width': '50rem' }">
 
-            <ng-template pTemplate="header">
-                <tr>
-                    @for(col of prodottiColumns; track $index) {
-                        <th>{{ col.header}}</th>
-                    }
-                </tr>
+                <ng-template pTemplate="header">
+                    <tr>
+                        @for(col of prodottiColumns; track $index) {
+                            <th>{{ col.header}}</th>
+                        }
+                    </tr>
                 </ng-template>
 
                 <ng-template pTemplate="body" let-prod>
