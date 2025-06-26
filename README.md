@@ -1,4 +1,4 @@
-# Dashboard
+# Dashboard Prototype Frontend
 
 Cette étude vise à analyser les données clés relatives aux lignes de production, selon trois indicateurs principaux :
 
