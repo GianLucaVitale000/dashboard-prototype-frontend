@@ -8,16 +8,18 @@ import { firstValueFrom } from 'rxjs';
   providedIn: 'root'
 })
 export class DashboardService {
-  baseUrl = "http://localhost:8080/api/charts";
+  baseUrl = "http://localhost:8080/ecipar_dashboard_prototype2_war_exploded/api/charts";
 
   constructor(private http: HttpClient) { }
  
   getRifiuti(){
-    return this.http.get<d.RifiutoResponse>(this.baseUrl + '/rifiuti/12');
+    // Prova con un numero diverso, potrebbe essere un periodo di tempo o un limite
+    return this.http.get<d.RifiutoResponse>(this.baseUrl + '/rifiuti/30');
   }
 
   getProduzione(){
-    return this.http.get<d.ProduzioneResponse>(this.baseUrl + '/produzione/12');
+    // Prova con un numero diverso, potrebbe essere un periodo di tempo o un limite
+    return this.http.get<d.ProduzioneResponse>(this.baseUrl + '/produzione/30');
   }
 
   getProdotti(){
